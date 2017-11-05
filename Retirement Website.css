@@ -1,0 +1,87 @@
+h1{
+
+    color: White;
+    
+    text-align: center;
+
+    font-size: 40px;
+    font-family:"Shelby";
+    background-image: url("https://www.usnews.com/dims4/USNEWS/d742d9f/2147483647/thumbnail/970x647/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2Fc8%2F6e%2F24c0cd824e798df06ef9ea753bc6%2Fgettyimages-478852085.jpg");
+    padding-top: 100px;
+    padding-left:100px;
+    padding-right:100px;
+    padding-bottom:220px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-left: solid;
+    border-right:solid;
+    border-width: 145px;
+    border-color: white:;
+}
+
+@keyframes gradient {
+    0%   {background-color: #e67aff;}
+    25%  {background-color: #eea3ff;}
+    50%  {background-color: #ffa3fd;}
+    100% {background-color: #eea3ff;}
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #333232;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+            h2{ 
+
+                background-color: white; }
+
+body {
+     background-color: #e67aff;
+     animation-name: gradient;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+
+
+}
+p{
+
+background-color: white;
+text-align: center;
+padding: 50px;
+font-size: 20px;
+
+}
+
+            
+     
+
+
+
+h2{
+    border: solid;
+    border-width: 15px;
+    border-color:#333232;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 50px
+    padding-left: 50px;
+    padding-bottom: 50px;
+    
+}
